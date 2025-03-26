@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+        
+        body {
+            font-family: 'Orbitron', sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            background-image: url('images/techbg.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+
+        header {
+            background-color: rgba(30, 30, 30, 0.8);
+            padding: 20px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
+            box-shadow: 0 4px 10px rgba(0, 234, 255, 0.5);
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(37, 37, 37, 0.9);
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        nav a {
+            color: #00eaff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff00ff;
+            text-shadow: 0 0 8px #ff00ff;
+        }
+
+        .services-container {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 50px;
+            flex-wrap: wrap;
+        }
+
+        .service-box {
+            background-color: rgba(30, 30, 30, 0.9);
+            padding: 20px;
+            width: 300px;
+            text-align: center;
+            border-radius: 10px;
+            transition: 0.3s;
+            border: 2px solid rgba(0, 234, 255, 0.5);
+            box-shadow: 0 0 15px rgba(0, 234, 255, 0.5);
+        }
+
+        .service-box:hover {
+            background-color: rgba(37, 37, 37, 1);
+            box-shadow: 0 0 20px rgba(255, 0, 255, 0.8);
+            transform: scale(1.05);
+        }
+
+        .service-box h3 {
+            color: #00eaff;
+            background: rgba(0, 0, 0, 0.6);
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>Our Services</header>
+    <nav>
+        <a href="E:/html/HTML-211/index.html.html">Home</a>
+        <a href="E:/html/HTML-211/about.html">About</a>
+    </nav>
+
+    <div class="services-container">
+        <div class="service-box">
+            <h3> Information Provider </h3>
+            <p>We provide information about PC Builds: Budget Build | Mid-Range Set-up | High-End Build | Workstation | Streaming Set-up | Extreme PC set-up  </p>
+        </div>
+        <div class="service-box">
+            <h3> Component Finder </h3>
+            <p>Log in to our Website to check all Available E-Stores for your desired component. </p>
+        </div>
+        <div class="service-box">
+            <h3> Consultation & Recommendations </h3>
+            <p>Not sure what to buy? We provide expert guidance for your PC build. Contact us now! </p>
+        </div>
+    </div>
+
+</body>
+</html>
